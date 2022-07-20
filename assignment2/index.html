@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>
+            Assignment two
+        </title>
+        
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+        <style>
+            .item1 { grid-area: aboutus; }
+            .item2 { grid-area: latesttweet; }
+            .item3 { grid-area: instagram; }
+            .item4 { grid-area: footer; }
+
+            .grid-container {
+              display: grid;
+              grid-template-areas:
+              
+                'aboutus latesttweet instagram'
+                'footer footer footer';
+              gap: 10px;
+              background-color: black;
+              padding: 5px;
+              
+            }
+
+            .grid-container > div {
+              background-color:black;
+              text-align: center;
+              padding: 5px 0;
+              font-size: 20px;
+            }
+            </style>
+    </head>
+    <body>
+        <div class="grid-container" style="margin:80px; font-size:small">
+            <div class="item1" style="padding:10px;margin:30px">
+                <p style="color:white">About Us</p>
+                <p  style="text-align: left;color:#555555; font-size:x-large;">    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex temporibus libero veritatis soluta perspiciatis in qui nam magnam! Asperiores ad similique a debitis modi quisquam id doloremque! Quidem, optio aliquam!</p>
+                <p style="text-align: left"><i style="color:orange" class="fa fa-phone">+12913912329</i></p>
+                <p style="text-align: left"><i style="color:orange" class="fa fa-envelope" aria-hidden="true">info@gmail.com</i></p>
+                <p style="text-align: left"><input type ="email" value="Enter your mail" style="width:100px;background-color:black;color:orange"><input type="submit" value="Send" style = "color:white; background-color:orange; border-radius: 10px;"></p>
+            </div>
+            <div class="item2" style="text-align: left;margin:30px;padding:10px"><p style="color:white">Latest Tweet</p>
+                <div> 
+                    <p style="text-align: left;color:#555555; font-size:x-large;"><i style="color:white" class="fa fa-twitter"></i>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Iure vitae similique, tenetur possimus libero magni. Illo, nesciunt labore. Fugiat autem quasi nobis nostrum 
+                    explicabo voluptates dicta facere deserunt, sunt quam.</p>
+                    <p style="text-align: left;color:#555555; font-size:x-large;"><i style = "color:white" class="fa fa-twitter" aria-hidden="true"></i>    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, aspernatur rerum voluptatum non animi distinctio tempora. Consequuntur rem maxime quis aut. Vel illo tempora excepturi reiciendis sunt ratione quia numquam.</p>
+                    <p style="text-align: left;color:#555555; font-size:x-large;"><i style = "color:white" class="fa fa-twitter" aria-hidden="true"></i>    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima obcaecati incidunt itaque? Minima similique, reprehenderit esse porro ipsum provident unde aliquam id, tenetur perspiciatis earum vitae ducimus quis dolore. Quisquam!</p>
+                </div>
+            </div>
+            <div class="item3" style="text-align: left;margin:30px;padding:10px"><p style="color:white">Instagram</p>
+                <p><img style = "width:100px;height:100px" src = "bikes.jpg">
+                    <img style = "width:100px;height:100px" src = "bikes.jpg"><br>
+                    <img style = "width:100px;height:100px" src = "house.jpg">
+                        <img style = "width:100px;height:100px" src = "house.jpg">
+
+            </div>  
+            <div class="item4" style= "float:left;margin-left:10px;">
+              <label style="float:left;margin-left:10px;padding:10px;color:white"> home</label>
+              <label style="float:left;padding:10px;color:white">about</label>
+             <label style="float:left;padding:10px;color:white">Our work</label>
+             <label style="float:left;padding:10px;color:white">Services</label>
+             <label style="float:left;padding:10px;color:white">Blog</label>
+             <label style="float:left;padding:10px;color:white">Contacts</label>
+             <label style="margin-right:10px;padding:10px;float:right;color:white">Colorlib</label>
+            </div>
+          </div>
+    </body>
+</html>
