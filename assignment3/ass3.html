@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .flex-container1 {
+          display: flex;
+          flex-wrap: wrap;
+          font-size: 30px;
+          text-align: center;
+        }
+
+        .flex-container2 {
+          display: flex;
+          flex-wrap: wrap;
+          font-size: 30px;
+          text-align: center;
+        }
+
+        .flex-item-header {
+          background-color:white;
+         // border: solid 1px blue;
+          padding: 10px;
+          flex: 100%;
+        }
+        
+        .flex-item-left1 {
+          background-color:white;
+          padding: 10px;
+          flex: 35%;
+          //border: solid 1px blue;
+        }
+        .flex-item-left2 {
+          background-color:white;
+          padding: 10px;
+          flex: 35%;
+          //border: solid 1px blue;
+        }
+        .flex-item-center1 {
+          background-color: white;
+          padding: 10px;
+          flex: 30%;
+         // border: solid 1px blue;
+        }
+        
+        .flex-item-right1 {
+          background-color:white;
+          padding: 10px;
+          flex: 35%;
+          //border: solid 1px blue;
+        }
+        .flex-item-right2 {
+          background-color:white;
+          padding: 10px;
+          flex: 35%;
+          //border: solid 1px blue;
+        }
+        .flex-item-footer {
+          background-color:black;
+          padding: 10px;
+          flex: 100%;
+        }
+        .divs{
+            background-color: white;
+            font-size:25px; 
+            text-align:left;
+        }
+        h1{
+            font-size: 25px;
+            text-align:left;
+        }
+        a{
+            text-decoration: none;
+
+        }
+        .heading{
+            font-size: 20px;
+            color:black;
+            font-weight: bold;"
+        }
+        .menu-format{
+            float: right;
+            padding:20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;"
+        }
+        /* Responsive layout - makes a one column-layout instead of a two-column layout */
+        @media (max-width: 800px) {
+          .flex-item-right, .flex-item-center, .flex-item-left{
+            flex: 100%;
+          }
+        }
+        </style>
+        <link rel="icon" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <!---->
+        </head>
+        <body>
+           
+            <div class="flex-container0">   
+                <div class = "flex-item-header">
+                    <label class = "menu-format"><a href = "#">EVD</a></label>
+                    <label class = "menu-format"><a href = "#">DM</a></label>
+                    <label class = "menu-format"><a href = "#">Blog</a></label>
+                    <label class = "menu-format"><a href = "#">Contact Us</a></label>
+                    <label class = "menu-format"><a href = "#">Products</a></label>
+                    <label class = "menu-format"><a href = "#">Services</a></label>
+                    <label class = "menu-format"><a href = "#">About Us</a></label>
+                    <label><a href = "#"><img style = "width:100px;height: 60px;" src = "aelaf-trans.png"></a></label>
+                    
+                    <!--<ul>
+                        <li>About Us</li>
+                        <li>Services</li>
+                        <li>Products</li>
+                            <ul>
+                                <li>software Development</li>
+                                <li>Web & Mobile Apps</li>
+                                <li>Training and Consultancy</li>
+                                <li>Embedded Systems</li>
+                            </ul>
+                        <li>Contact Us</li>
+                        <li>Blog</li>
+                        <li>DM</li>
+                        <li>EVD</li>
+                    </ul>-->
+
+                </div> 
+                <div class = "flex-item-header">
+                    <p><img   src = "picture.jpg" style = "width:100%;height:100%"></p>
+                </div>
+                <div class = "flex-item-header"><h1>OUR SERVICES</h1>
+                    <p class = "divs"> We design, architect, implement and deliver online services, IT enterprise solutions, and IT Consultancy & Training Services for a wide variety of customer bases. Through our well engineered practices and experiences, we focus on delivering innovative solutions that can have a tremendous impact on the lives and business activities of our valued customers. We provide solutions that best suits and demands our customers with the greatest possible satisfaction and ROI.</p>
+                </div> 
+            </div>
+
+            <div class="flex-container1">      
+                <div class="flex-item-left1"> <a title="" target="_self" href="#"><i class="fa fa-cogs"></i><span class = "heading">  SOFTWARE DEVELOPMENT</span></a>
+                    <p  class = "divs">Using the modern Object Oriented System design methodology and Agile approaches, we work on various types of software application developments. We use C# and Java for enterprise business solutions in association with SQL Server, Oracle or MySQL DBMS. At Aelaf, we always use matured technologies and frameworks as part of our development strategy.</p>    
+                </div>
+
+                <div class="flex-item-center1" > <a title="" target="_self" href="#"><i class="fa fa-globe"></i><span class = "heading"> WEB APPS AND WEB SITES</span> </a>
+                    <p class = "divs">Using the modern Object Oriented System design methodology and Agile approaches, we work on various types of software application developments. We use C# and Java for enterprise business solutions in association with SQL Server, Oracle or MySQL DBMS. At Aelaf, we always use matured technologies and frameworks as part of our development strategy.</p>                    
+                </div>
+
+                <div class="flex-item-right1"><a title="" target="_self" href="#"><i class="fa fa-mobile"></i><span class = "heading"> MOBILE APPS</span></a>
+                    <p class = "divs"> We, at Aelaf, are passionate, creative, and have experience developing products as entrepreneurs. We work together with our clients to build compelling mobile apps that provide lasting excitement and value to their customers. Our deep understanding of mobile and web based technology empowers us to bring a level of expertise to your company like no one else</p>
+                </div> 
+
+                <div class="flex-item-left1"><a title="" target="_self" href="#"><i class="fa fa-joomla"></i><span class="heading"> ICT Consultancy</span> </a>
+                    <p class = "divs">Our ICT Advisory and Consultancy services provide strategic advice in helping organizations and businesses maximize its ICT asset in an effective and flexible manner and to achieve its business goals. Our decades of theoretical and practical experiences to interpret and transform a client's vision into a simple business aligned and prioritized roadmap of initiatives is testament to our effectiveness in delivering leading edge and fit-for-purpose ICT strategies and solutions.</p>
+                </div>
+                <div class="flex-item-center1"><a title="" target="_self" href="#"><i class="fa fa-graduation-cap"></i><span class="heading"> ICT Training</span></a>
+                    <p class = "divs">Aelaf provides professional trainings for those who want to keep up with the ever-changing technology needs, upgrade their underlying skills or learn new career skills. Our academic and industry experiences help us tailor the needs of our trainees and equip them with the required theoretical and practical knowledge. The training specializations were chosen based on adequate need assessment on the widely demanded basic and advanced IT skills in Ethiopia.</p>
+                </div>
+                <div class="flex-item-right1"><a title="" target="_self" href="#"><i class="fa fa-credit-card"></i><span class = "heading"> Embedded Systems</span></a>
+                    <p class = "divs">Aelaf has dedicated engineers to develop embedded systems for customized user demands and applications. Our primary targets are Home Automation systems, Traffic Accident Detection Systems, Car Tracking, Intelligent Traffic Systems and Smart Cards. Aelaf offers a full range of design services for embedded system development that include system architecture and design, electronic circuit design & analysis, real-time software design, printed circuit design, and mechanical packaging design.</p>
+                </div> 
+            </div>  
+            <div class="flex-container2">  
+                <div class="flex-item-left2"><h1>ABOUT US</h1>
+                    <p  class = "divs">Using the modern Object Oriented System design methodology and Agile approaches, we work on various types of software application developments. We use C# and Java for enterprise business solutions in association with SQL Server, Oracle or MySQL DBMS. At Aelaf, we always use matured technologies and frameworks as part of our development strategy.</p>    
+                </div>
+
+                <div class="flex-item-right2" >
+                    <p><img src = "https://www.aelaftech.com/wp-content/uploads/2018/09/coding-screen-1-450x230.jpg"></p>
+                </div> 
+                 <div class="flex-item-left2"><h1>What is Digital Transformation?</h1>                
+                </div>
+
+                <div class="flex-item-right2" >
+                    <p><img style="width:350px;height:200px" src = "https://tpc.googlesyndication.com/daca_images/simgad/9008338982607058295"></p>
+                </div>
+                <div class="flex-item-left2">  
+                    <p><img style = "width:500px;height: 400x;" src = "services.jpg"></p>
+                </div>
+
+                <div class="flex-item-right2" ><h1>Why You Choose Us?</h1> 
+                    <p class = "divs">Let us help you realize your projects & maximize your results
+                        We take care of every requirement detail to design your systems. We make all-around research to solve your unique requirements. Using our modern agile based development approach, we create solutions that best fits your requirements and results in a lower total cost of ownership. We test your systems not as developers but as end users from various perspectives. Finally, we deliver your product & artifacts and deploy it in your preferred environment. Training and knowledge transfer is part and parcel of our development approach</p>
+                </div>
+
+                <div class="flex-item-left2">  
+                    <figure class="wpb_wrapper vc_figure">
+                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="1271" height="552" src="https://www.aelaftech.com/wp-content/uploads/2017/02/ae-team.png" class="vc_single_image-img attachment-full" alt="" srcset="https://www.aelaftech.com/wp-content/uploads/2017/02/ae-team.png 1271w, https://www.aelaftech.com/wp-content/uploads/2017/02/ae-team-600x261.png 600w, https://www.aelaftech.com/wp-content/uploads/2017/02/ae-team-300x130.png 300w, https://www.aelaftech.com/wp-content/uploads/2017/02/ae-team-768x334.png 768w, https://www.aelaftech.com/wp-content/uploads/2017/02/ae-team-1024x445.png 1024w" sizes="(max-width: 1271px) 100vw, 1271px" /></div>
+                    </figure>     
+                </div>
+            </div> 
+
+             <div class = "flex-item-footer">                
+                <label> <img src = "aelaf-trans.png" style = "width:225px;height:70px">
+                <span style="color:white;text-align;">Quality and innovation are our 
+                    hall marks. Agility and teamworks 
+                    are the bases for our success.</span></label>             
+            </div>              
+        </div> 
+                 
+    </body>
+</html>
